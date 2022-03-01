@@ -61,6 +61,14 @@
   --clippy: polygon(0 0, 100% 0, 100% 99%, 0 100%);
 }
 
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+  text-align: center;
+}
 @media (max-width: 800px) {
   .nav {
     z-index: 20;
