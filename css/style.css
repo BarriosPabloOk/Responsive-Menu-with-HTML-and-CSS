@@ -74,6 +74,7 @@ body {
 }
 .message {
   text-align: center;
+  z-index: -2;
 }
 @media (max-width: 800px) {
   .nav {
